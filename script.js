@@ -88,7 +88,7 @@ const Texts = [
     'HTML', 'CSS', 'Javascript',
     'Typescript', 'Angular', 'Java',
     'SpringBoot', 'RESTful API',
-    'Bootstrap', 'Material Angular', 'Ruby',
+    'Bootstrap', 'Angular Material', 'C++',
     'Python', 'MYSQL', 'GIT', 'JAVA'
 ];
 
