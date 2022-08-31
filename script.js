@@ -4,10 +4,10 @@ $(document).ready(function(){
         if(this.scrollY > 40){
             document.getElementById('DeepikaSahi').style.transition="all 0.5s ease";
             document.getElementById('DeepikaSahi').innerText="DS";
-            document.getElementById('DeepikaSahi').style.color="#5E4DBA";
+            document.getElementById('DeepikaSahi').style.color="crimson";
             document.getElementById('DeepikaSahi').style.marginLeft="-64px"
             document.getElementById('portfolio').innerText="";
-            // document.getElementById('menu').style.color="#5E4DBA";
+            // document.getElementById('menu').style.color="crimson";
             document.getElementById('navbar').addClass("sticky");
         }else{
             document.getElementById('DeepikaSahi').style.transition="all 0.5s ease";
@@ -111,7 +111,7 @@ var tagCloud = TagCloud('.Sphere', Texts, {
 });
 
 // Giving color to each text in sphere
-var color = '#5E4DBA';
+var color = '#crimson';
 document.querySelector('.Sphere').style.color = color;
 
     //   cursor
